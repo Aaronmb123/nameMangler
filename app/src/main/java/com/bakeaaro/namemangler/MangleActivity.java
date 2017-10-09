@@ -28,6 +28,7 @@ public class MangleActivity extends AppCompatActivity {
 
         mNameTextView = (TextView) findViewById(R.id.name_text_view);
 
+        //TODO use String Array Resource
         mNamesArray = new ArrayList<>();
         mNamesArray.add("the Great");
         mNamesArray.add("the Magnificent");
